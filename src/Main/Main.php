@@ -51,7 +51,7 @@ class Main {
          $k++;
          $continent_in = $data->continent;
          $country = $data->country_name;
-         if($j == 0){
+         if($j == 0){ //because of limit free ip calls(for right way - without if.
          $j++;
          $ip = $value[4];
          $continent_from = $this->getContinent($ip);
